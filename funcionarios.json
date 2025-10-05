@@ -7,6 +7,14 @@
       "setor": "TI",
       "turno": "Matutino",
       "salario": 15000
+    },
+    {
+      "id": "0f26",
+      "nome": "Linard",
+      "cargo": "Analista de dados",
+      "setor": "TI",
+      "turno": "Matutino",
+      "salario": 9999
     }
   ]
 }

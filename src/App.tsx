@@ -1,14 +1,18 @@
-import Rodape from "../src/Rodape"
 import { Outlet } from "react-router-dom";
-import Cabecalho from "../src/Cabecalho"
+import Cabecalho from "../src/Components/Cabecalho";
+import Rodape from "../src/Components/Rodape";
 
-export default function App(){
+export default function App() {
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Cabecalho />
 
-  return(
-    <>
-      <Cabecalho/>
-      <Outlet/>
-      <Rodape/>
-    </>
-  )
+      {/* Conteúdo principal cresce e empurra o footer */}
+      <main className="flex-1">
+        <Outlet />
+      </main>
+
+      <Rodape />
+    </div>
+  );
 }
