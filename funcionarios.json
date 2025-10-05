@@ -1,20 +1,12 @@
 {
-    "funcionario":[
-        {
-            "id":1,
-            "nome": "José",
-            "cargo": "Gestor de dados",
-            "setor": "TI",
-            "turno": "Matutino",
-            "salario": 5500
-        },
-        {
-            "id":2,
-            "nome": "Ronaldo",
-            "cargo": "Estágiario",
-            "setor": "Administração",
-            "turno": "Noturno",
-            "salario": 1500
-        }
-    ]
+  "funcionario": [
+    {
+      "id": "1",
+      "nome": "José",
+      "cargo": "Analista de dados",
+      "setor": "TI",
+      "turno": "Matutino",
+      "salario": 15000
+    }
+  ]
 }
